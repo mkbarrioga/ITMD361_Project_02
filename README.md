@@ -1,5 +1,5 @@
 # ITMD361_Project_02
-Live Link:
+Live Link: https://mkbarrioga.github.io/ITMD361_Project_02/
 
 Project Description:
 
