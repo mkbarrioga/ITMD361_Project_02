@@ -9,7 +9,7 @@
 }
 
 #resumeBG{
-  background: url('/ITMD361_Project_02/images/bgwallpaper.jpeg'); 
+  background-image: url('/ITMD361_Project_02/images/bgwallpaper.jpeg'); 
 }
 
 #navbar{
@@ -219,7 +219,7 @@ section>h3{
 }
 
 #aphBG{
-  background: url('/ITMD361_Project_02/images/aphbg.jpeg'); 
+  background-image: url('/ITMD361_Project_02/images/aphbg.jpeg'); 
 }
 
 #aphContent{
@@ -379,7 +379,7 @@ section>h3{
 }
 
 #pharusBG{
-  background: url('/ITMD361_Project_02/images/pharusbg.jpeg');
+  background-image: url('/ITMD361_Project_02/images/pharusbg.jpeg');
   font-family: 'Padauk', sans-serif;
   color: white;
 }
