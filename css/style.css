@@ -1,12 +1,15 @@
 .background{
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center center;
 }
 
 #resumeBG{
-  background: url('/ITMD361_Project_02/images/bgwallpaper.jpeg') no-repeat center center fixed; 
+  background-image: url('/Project/images/bgwallpaper.jpeg');
 }
 
 #navbar{
@@ -216,7 +219,7 @@ section>h3{
 }
 
 #aphBG{
-  background: url('/ITMD361_Project_02/images/aphbg.jpeg') no-repeat center center fixed; 
+  background-image: url('/Project/images/aphbg.jpeg'); 
 }
 
 #aphContent{
@@ -376,7 +379,7 @@ section>h3{
 }
 
 #pharusBG{
-  background: url('/ITMD361_Project_02/images/pharusbg.jpeg') no-repeat center center fixed;
+  background-image: url('/Project/images/pharusbg.jpeg');
   font-family: 'Padauk', sans-serif;
   color: white;
 }
@@ -436,7 +439,7 @@ section>h3{
 
 #sect2{
   position: relative;
-  background-image: url('/ITMD361_Project_02/images/contentbg.jpeg');
+  background-image: url('/Project/images/contentbg.jpeg');
   background-size: cover;
   top: -20px;
   z-index: 2;
@@ -488,7 +491,7 @@ section>h3{
 
 #sect4{
   position: relative;
-  background-image: url('/ITMD361_Project_02/images/contentbg2.jpeg');
+  background-image: url('/Project/images/contentbg2.jpeg');
   background-size: cover;
   background-position: center;
   font-size: 1.5em;
@@ -559,7 +562,7 @@ section>h3{
 #sect6{
   position: relative;
   top: -240px;
-  background-image: url('/ITMD361_Project_02/images/contentbg3.jpeg');
+  background-image: url('/Project/images/contentbg3.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
