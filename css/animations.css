@@ -12,7 +12,7 @@
 
 .shine{ 
   text-transform: uppercase;
-  background-image: radial-gradient(at 50% 50%, white 5%, gold 10%, goldenrod 15%, black 90%);
+  background-image: radial-gradient(at 50% 50%, #ffffff 5%, #ffd700 10%, #daa520 15%, #ffffff 90%);
   background-size: 500%;
   background-clip: text;
   -webkit-background-clip: text;
@@ -25,17 +25,17 @@
 }
 
 @keyframes colorChange{
-  100% {border-color: gold;}
-  80% {border-color: goldenrod;}
-  50% {border-color: orange;}
+  100% {border-color: rgb(238, 227, 176);}
+  80% {border-color: #f7d47d;}
+  50% {border-color: #ffa500;}
 }
 
 @keyframes ppBorder{
-  100%{border-image: radial-gradient(at 0% 100%, white 10px, rgba(235, 212, 184, 0.836) 50%, rgba(233, 206, 174, 0.836) 80%, rgb(220, 171, 110) 90%)1;}
-  80%{border-image: radial-gradient(at 20% 80%, white 10px, rgba(235, 212, 184, 0.836) 50%, rgba(233, 206, 174, 0.836) 80%, rgb(220, 171, 110) 90%)1;}
-  40%{border-image: radial-gradient(at 80% 20%, white 10px, rgba(235, 212, 184, 0.836) 50%, rgba(233, 206, 174, 0.836) 80%, rgb(220, 171, 110) 90%)1;}
-  20%{border-image: radial-gradient(at 100% 0%, white 10px, rgba(235, 212, 184, 0.836) 50%, rgba(233, 206, 174, 0.836) 80%, rgb(220, 171, 110) 90%)1;}
-  0%{border-image: radial-gradient(at 0% 100%, white 10px, rgba(235, 212, 184, 0.836) 50%, rgba(233, 206, 174, 0.836) 80%, rgb(220, 171, 110) 90%)1;}
+  100%{border-image: radial-gradient(at 0% 100%, #ffffff 10px, rgba(235, 212, 184, 0.836) 50%, rgba(233, 206, 174, 0.836) 80%, rgb(220, 171, 110) 90%)1;}
+  80%{border-image: radial-gradient(at 20% 80%, #ffffff 10px, rgba(235, 212, 184, 0.836) 50%, rgba(233, 206, 174, 0.836) 80%, rgb(220, 171, 110) 90%)1;}
+  40%{border-image: radial-gradient(at 80% 20%, #ffffff 10px, rgba(235, 212, 184, 0.836) 50%, rgba(233, 206, 174, 0.836) 80%, rgb(220, 171, 110) 90%)1;}
+  20%{border-image: radial-gradient(at 100% 0%, #ffffff 10px, rgba(235, 212, 184, 0.836) 50%, rgba(233, 206, 174, 0.836) 80%, rgb(220, 171, 110) 90%)1;}
+  0%{border-image: radial-gradient(at 0% 100%, #ffffff 10px, rgba(235, 212, 184, 0.836) 50%, rgba(233, 206, 174, 0.836) 80%, rgb(220, 171, 110) 90%)1;}
 }
 
 @keyframes textAnim{
@@ -43,7 +43,7 @@
 }
 
 @keyframes donateButton{
-  100%{border-image: radial-gradient(at 0% 100%, white 5px, rgba(204, 184, 235, 0.836) 40%, rgba(209, 24, 184, 0.836) 70%, blueviolet 80%)1;}
-  50%{border-image: radial-gradient(at 100% 0%, white 5px, rgba(204, 184, 235, 0.836) 40%, rgba(209, 24, 184, 0.836) 70%, blueviolet 80%)1;}
-  0%{border-image: radial-gradient(at 0% 100%, white 5px, rgba(204, 184, 235, 0.836) 40%, rgba(209, 24, 184, 0.836) 70%, blueviolet 80%)1;}
+  100%{border-image: radial-gradient(at 0% 100%, #ffffff 5px, rgba(204, 184, 235, 0.836) 40%, rgba(209, 24, 184, 0.836) 70%, blueviolet 80%)1;}
+  50%{border-image: radial-gradient(at 100% 0%, #ffffff 5px, rgba(204, 184, 235, 0.836) 40%, rgba(209, 24, 184, 0.836) 70%, blueviolet 80%)1;}
+  0%{border-image: radial-gradient(at 0% 100%, #ffffff 5px, rgba(204, 184, 235, 0.836) 40%, rgba(209, 24, 184, 0.836) 70%, blueviolet 80%)1;}
 }
